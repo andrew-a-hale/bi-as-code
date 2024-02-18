@@ -1,0 +1,9 @@
+compiler: rillv1
+
+title: "Rill Quickstart!"
+
+# These are example mock users to test your security policies.
+# For more information, see the documentation: https://docs.rilldata.com/develop/security
+
+mock_users:
+  - email: andrew.hale@cognizant.com
