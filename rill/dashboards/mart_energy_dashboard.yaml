@@ -1,7 +1,7 @@
 # Visit https://docs.rilldata.com/reference/project-files to learn more about Rill project files.
 
-title: mark_energy_dashboard
-model: mark_energy_model
+title: mart_energy_dashboard
+model: mart_energy_model
 timeseries: datetime
 measures:
   - label: Total records

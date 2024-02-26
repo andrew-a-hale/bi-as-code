@@ -366,7 +366,7 @@ func create_mart_energy(connector *duckdb.Connector) error {
 
 func export_mart_energy(connector *duckdb.Connector) error {
 	db := sql.OpenDB(connector)
-	_, err := db.Exec(`COPY mart_energy TO '../mark_energy.parquet' (FORMAT PARQUET);`)
+	_, err := db.Exec(`COPY mart_energy TO '../mart_energy.parquet' (FORMAT PARQUET);`)
 	return err
 }
 

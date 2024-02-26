@@ -1,1 +1,0 @@
-select make_timestamp(year(date), month(date), day(date), hour(time), minute(time), 0) AS datetime, * from mark_energy
